@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="server/javascript">
+var items = [{name: "Denis", ratings: [1,2,3]}, {name: "Max", ratings: [4,7]}];
+</script>
+</head>
+<body>
+    <ul>
+        <li data-for-item="items">
+            Name: ${item.name}
+            <p data-for-rate="item.ratings">Rate: ${rate}</p>
+        </li>
+    </ul>
+</body>
+</html>
