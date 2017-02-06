@@ -15,7 +15,7 @@ You have template like this:
 </head>
 <body>
   <h1 title="${person.name}">${person.name}</h1>
-  <h2 data-if="person.married"title="${person.spouse}">Spouse: ${person.spouse}</h2>
+  <h2 data-if="person.married" title="${person.spouse}">Spouse: ${person.spouse}</h2>
   <div data-for-child="person.children">Child: ${child}</div>
 </body>
 </html>
